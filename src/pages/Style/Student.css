@@ -1,0 +1,110 @@
+.student--format {
+    background-image: url(./Image/body-pagecopy.png);
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* filter: blur(3px); */
+    z-index: -1;
+    background-position: center
+}
+
+.student--type {
+    text-align: center;
+    color: green;
+    font-size: 13px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 30px 30px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border: 10px inset green;
+    /* background: transparent; */
+    background-color: azure;
+    /* backdrop-filter: blur(8px); */
+    text-transform: uppercase;  
+}
+
+.student--cert {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    cursor: pointer;
+    padding: 25px 45px;
+    font-size: 20px;
+    background: transparent;
+    border-radius: 50px;
+    border: 10px inset green;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+    text-transform: uppercase;
+}
+
+.student--cert a{
+    text-decoration: none;
+    color: white;
+}
+.student--cert:hover {
+    background-color: rgb(1, 44, 1);
+    color: azure;
+}
+
+
+.student--cred {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    cursor: pointer;
+    padding: 25px 47px;
+    font-size: 20px;
+    background: transparent;
+    border-radius: 50px;
+    border: 10px inset green;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+    text-transform: uppercase;
+    
+}
+
+.student--cred a {
+    text-decoration: none;
+    color: white;
+}
+
+.student--cred:hover {
+    background-color: rgb(1, 44, 1);
+  
+    
+}
+.student--other {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    cursor: pointer;
+    padding: 26px 28px;
+    font-size: 17px;
+    background: transparent;
+    border-radius: 50px;
+    border: 10px inset green;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+    text-transform: uppercase;
+}
+
+.student--other:hover {
+    background-color: rgb(1, 44, 1);
+}
+.student--other a {
+    text-decoration: none;
+    color: white;
+}
+
+

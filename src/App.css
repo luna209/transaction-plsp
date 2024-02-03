@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+
+body {
+    margin: 0;
+    font-family: inter, sans-serif;
+   
+}
+
+nav { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:azure;   
+    padding: 30px 25px;
+    height: 150px;
+    width: 100%;
+}
+
+.logo {
+    width: 45px;
+    padding: 20px;
+}
+
+.device-name {
+    font-size: 45px;
+    color: green;
+    width: 700px;
+}
+
+.home-bg {
+    background-image: url(./Image/body-page.png);
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* filter: blur(2px); */
+    z-index: -1;
+    background-position: center center;
+}
+
+.home-text {
+    text-align: center;
+    font-size: 100px ;
+    position: absolute;
+    top: 60%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    border-radius: 75px;
+    background-color: rgba(0, 0, 0, 0, 0.3);
+    border: 10px inset green; 
+    background: transparent;;
+    backdrop-filter: blur(25px);
+    transition: all 0.3s ease;
+
+}
+.home-text a {
+    text-decoration: none;
+    color: white;
+}   
+.home-text:hover {
+    background-color: rgb(1, 44, 1);
+}
+
+.bg {  
+        background-image: url(./Image/body-page.png);
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 80vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: blur(3px);
+        z-index: -1;
+        background-position: center center
+}
+
+.title-bg {
+    text-align: center;
+    color: green;
+    font-size: 35px;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 32px 30px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background-color: white;
+    border: 10px inset green;
+    /* background: transparent; */
+    backdrop-filter: blur(8px);
+} 
+
+.bg-buttonR {
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    transform: translate(-50%, -50%);   
+    cursor: pointer;
+    padding: 32px 30px;
+    font-size: 50px;
+    background: transparent;    
+    border-radius: 25px;
+    backdrop-filter: blur(8px);
+    color: white;
+    border: 10px inset green;
+    transition: all 0.3s ease;
+}
+
+.bg-buttonR a {
+    text-decoration: none;
+    color: white;
+}
+.bg-buttonR:hover{
+    background-color: rgb(1, 44, 1);
+}
+
+.bg-buttonC {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 75%;
+    transform: translate(-50%, -50%);   
+    cursor: pointer;
+    padding: 17px 80px;
+    font-size: 35px;
+    background: transparent;
+    border-radius: 25px;
+    border: 10px inset green;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+}
+.bg-buttonC a {
+    text-decoration: none;
+    color: white;
+}
+
+.bg-buttonC:hover{
+    background-color:  rgb(1, 44, 1);
+    
+}
+
+@media only screen and (min-width: 600px) {
+    .nav .logo .device-name {
+        display: none;
+    }
+}
+    .nav .logo .device-name {
+        padding: 20px;
+    }
+    
+
+
+
+
+
+
+
